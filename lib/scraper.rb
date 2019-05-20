@@ -21,6 +21,7 @@ class Scraper
                   }
 
     scrape_students << hash
+
     end
     scrape_students
 
@@ -50,7 +51,7 @@ class Scraper
    student[:bio] = doc.css("div.description-holder p").text
    student
 
-
+  # binding.pry
    end
 
 
